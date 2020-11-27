@@ -7,6 +7,6 @@ authors = ["delu <davidelu93@gmail.com>"]
 toml = "0.2.1"
 rustc-serialize = "*"
 glium = "0.16.0"
-portaudio = "0.7.0"
+portaudio = { git = "https://github.com/khimaros/rust-portaudio" }
 num = "*"
 rustfft = "4.0.0"
